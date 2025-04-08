@@ -51,6 +51,7 @@ if is_matched:
         np = int(no_of_total_products)
         np = math.ceil(np/product_count)
         #print(np)
+        
 for pageno in range(1,np+1):
     castPageNo = int(pageno)
     driver.get(f'https://www.daraz.com.bd/mens-eyeglasses/?page={castPageNo}')
